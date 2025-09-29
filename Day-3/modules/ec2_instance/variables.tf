@@ -1,11 +1,11 @@
 variable "ami_value" {
-    description = "value for the ami"
+    description = "value of ami"
 }
 
-variable "instance_type_value" {
-    description = "value for instance_type"
+variable "instance_type" {
+    description = "value of instance"
 }
 
-variable "subnet_id_value" {
-    description = "value for the subnet_id"
+variable "key_name" {
+    description = "value of key"
 }
